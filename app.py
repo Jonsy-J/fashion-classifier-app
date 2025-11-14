@@ -16,7 +16,7 @@ class_names = [
     "Sandal", "Shirt", "Sneaker", "Bag", "Ankle Boot"
 ]
 
-st.title("Fashion Item Classifier (Deep Learning Model)")
+st.title("Fashion Item Classifier")
 st.write("Upload an image of a clothing item for prediction.")
 
 # File uploader
@@ -37,4 +37,5 @@ if uploaded_file:
     # Display
     st.image(uploaded_file, caption="Uploaded Image", width=150)
     st.write(f"### Predicted Item: **{label}**")
+
 
